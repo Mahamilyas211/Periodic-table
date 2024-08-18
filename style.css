@@ -40,14 +40,15 @@ main {
 
 #Elements ol {
   padding: 0;
-  color: 19191b;
+  color: #0f1e70;
   margin: 2rem 0;
+  font-weight: 500;
   /*   font-size: 30%; */
 }
 
 #Elements li {
   list-style-type: none;
-  outline: .1em solid #000;
+  outline: .1em solid #0f1e70;
   box-sizing: border-box;
   padding: .5em .75em;
   width: 8em;
@@ -59,6 +60,9 @@ main {
 #Elements li div:first-child {
   text-align: right;
   color: rgb(6, 15, 95);
+  font-weight: bold;
+  font-size:10px;
+
 }
 
 #Elements li div:nth-child(2) {
